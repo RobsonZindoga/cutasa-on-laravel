@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>CUT | ASA</title>
+    <title>CUT | AA</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    
+
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Great+Vibes&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
     <link rel="stylesheet" href="css/animate.css">
-    
+
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
     <link rel="stylesheet" href="css/magnific-popup.css">
@@ -19,20 +19,20 @@
     <link rel="stylesheet" href="css/aos.css">
 
     <link rel="stylesheet" href="css/ionicons.min.css">
-    
+
     <link rel="stylesheet" href="css/flaticon.css">
     <link rel="stylesheet" href="css/icomoon.css">
 	<link rel="stylesheet" href="css/style.css">
 	<link rel='icon' href='asa.ico' type='image/x-icon'/ >
   </head>
   <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
-	  
-	  
+
+
     <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light site-navbar-target" id="ftco-navbar">
 	    <div class="container">
 	      <a class="navbar-brand" href="index.html">
 			  <img src="images/sda logo.png" alt="" style="max-height:4rem">
-			  <span class="text-primary font-weight-bold">CUTASA</span>
+			  <span class="text-primary font-weight-bold">CUTAA</span>
 		  </a>
 	      <button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
 	        <span class="oi oi-menu"></span> Menu
@@ -44,17 +44,15 @@
 	          <li class="nav-item"><a href="#about-section" class="nav-link"><span>About</span></a></li>
 	          <li class="nav-item"><a href="#sermons-section" class="nav-link"><span>Sermons</span></a></li>
 	          <li class="nav-item"><a href="#events-section" class="nav-link"><span>Events</span></a></li>
-	          <li class="nav-item"><a href="#causes-section" class="nav-link"><span>ASA</span></a></li>
 	          <li class="nav-item"><a href="#donate" class="nav-link"><span>Subscribe</span></a></li>
 	          <li class="nav-item"><a href="#blog-section" class="nav-link"><span>Blog</span></a></li>
-	          <!-- <li class="nav-item"><a href="#" class="nav-link"><span>Register</span></a></li> -->
 	          <li class="nav-item"><a href="#contact-section" class="nav-link"><span>Contact</span></a></li>
 	        </ul>
 	      </div>
 	    </div>
 	</nav>
 	<section class="home-slider js-fullheight owl-carousel">
-      <div class="slider-item js-fullheight" style="background-image:url(images/global.jpg);">
+      <div class="slider-item js-fullheight" style="background-image:url(images/20191130_103822.jpg);">
       	<div class="overlay"></div>
 	        <div class="container">
 	          <div class="row no-gutters slider-text js-fullheight align-items-center justify-content-center" data-scrollax-parent="true">
@@ -89,7 +87,7 @@
 	        </div>
         </div>
 	  </div>
-	  <div class="slider-item js-fullheight" style="background-image:url(images/baba.JPG);">
+	  <div class="slider-item js-fullheight" style="background-image:url(images/WP_20140914_004.jpg);">
 		<div class="overlay"></div>
 		  <div class="container">
 			<div class="row no-gutters slider-text js-fullheight align-items-center justify-content-center" data-scrollax-parent="true">
@@ -117,14 +115,14 @@
               <h3 class="heading text-center">CUT<span> Adventist</span> Association</h3>
               <p>
 				  ASA is a group of <strong>intellectuals</strong> that come together with a shared version of enriching as well as outreaching
-				  the community spiritually. It commonly noticed that the more a person gets educated, the less he or she becomes devoted to the 
+				  the community spiritually. It commonly noticed that the more a person gets educated, the less he or she becomes devoted to the
 				  ministry of the gospel due to time management and having a feeling of (Im ok I dont need any spiritual help my life is in shape)
 			  </p>
               <p>
 				The objectives of the Chinhoyi University of Technology Adventist Alumni are:
 			 </p>
               <ul class="my-4">
-				  <li><span class="ion-ios-checkmark-circle mr-2"></span> 
+				  <li><span class="ion-ios-checkmark-circle mr-2"></span>
 					To provide the opportunity to become acquainted with and enjoy the fellowship of alumni who
 					hold membership and have interest in the Seventh-day Adventist denomination.
 				</li>
@@ -188,7 +186,7 @@
         </div>
     	</div>
     </section>
-		
+
 		<section class="ftco-section ftco-services-2" id="services-section">
 			<div class="container">
 				<div class="row justify-content-center pb-5">
@@ -208,7 +206,7 @@
                 <h3 class="heading mb-3">Daily Prayers</h3>
                 <p>We conduct Daily Prayers in campus from 17:30hrs to 18:00hrs at the Poets Corner. Everyone is allowed to Join</p>
               </div>
-            </div>      
+            </div>
           </div>
           <div class="col-md d-flex align-self-stretch ftco-animate">
             <div class="media block-6 services text-center d-block">
@@ -219,7 +217,7 @@
 					See the world differently—understand why our lives are so full of trouble and at the same time, learn why there is hope.
 				</p>
               </div>
-            </div>      
+            </div>
           </div>
           <div class="col-md d-flex align-self-stretch ftco-animate">
             <div class="media block-6 services text-center d-block">
@@ -230,7 +228,7 @@
 					Transforming students on non-Adventist campuses into Seventh-day Adventist ambassadors of Christ,
 				</p>
               </div>
-            </div>      
+            </div>
           </div>
           <div class="col-md d-flex align-self-stretch ftco-animate">
             <div class="media block-6 services text-center d-block">
@@ -239,7 +237,7 @@
                 <h3 class="heading mb-3">Weddings</h3>
                 <p>We promote marriages as well as Weddings of Association members both Alumni and Students</p>
               </div>
-            </div>      
+            </div>
           </div>
           <div class="col-md d-flex align-self-stretch ftco-animate">
             <div class="media block-6 services text-center d-block">
@@ -248,7 +246,7 @@
                 <h3 class="heading mb-3">Community Helpers</h3>
                 <p>We are involved in Community Outreach and activities to enrich the community at large</p>
               </div>
-            </div>      
+            </div>
           </div>
         </div>
 			</div>
@@ -521,7 +519,7 @@
 				</div>
 			</div>
 		</section>
-		
+
 
 		<section class="ftco-section ftco-causes ftco-no-pb" id="causes-section">
 			<div class="container">
@@ -565,7 +563,7 @@
 							<div class="text p-3">
 								<h3><a href="#">Mid Semester Camp</a></h3>
 								<p class="text-justify">
-									Every Semester Students host a Camp Meeting to enrich members spiritually and build relationships in within 
+									Every Semester Students host a Camp Meeting to enrich members spiritually and build relationships in within
 									Association Members. Powerful speakers are envited to share the Gospel
 								</p>
 								<p><a href="#" class="btn btn-outline-warning">Read More</a></p>
@@ -578,7 +576,7 @@
 							<div class="text p-3">
 								<h3><a href="#">Hospital Visits</a></h3>
 								<p class="text-justify">
-									Every Wednesday Association Students assemble to go to visit Patients at Chinhoyi Hospital, pray and feast with them 
+									Every Wednesday Association Students assemble to go to visit Patients at Chinhoyi Hospital, pray and feast with them
 									uplifting the name of Christ. Hostel visits are also conducted.
 								</p>
 								<p><a href="#" class="btn btn-outline-warning">Read More</a></p>
@@ -591,8 +589,8 @@
 						<div class="donated-intro bg-darken p-4 p-md-5">
 							<h2>Donations so far <span>$</span><strong class="number" data-number="1000">0</strong></h2>
     					<p>
-							So today God desires His Children, both in spiritual and in temporal things, to impart blessings to the world. 
-							For every disciple of christ in every age were spoken those precious words of the Saviour. Out of him "shall flow rivers 
+							So today God desires His Children, both in spiritual and in temporal things, to impart blessings to the world.
+							For every disciple of christ in every age were spoken those precious words of the Saviour. Out of him "shall flow rivers
 							of living water" {6T 274.2}
 						</p>
 						<p>
@@ -803,9 +801,9 @@
 				<h2 class="mb-4">Church Leaders Alumni</h2>
 			</div>
 			<p class="text-center">
-				The path of men who are placed as leaders is not an easy one. But they are to see in every difficulty a call to prayer. Never are 
+				The path of men who are placed as leaders is not an easy one. But they are to see in every difficulty a call to prayer. Never are
 				they to fail of consulting the great Source of all wisdom. Strengthened and Enlightened by the Master Worker, they will be enabled to stand firm against unholy
-				influences and to discern right from wrong, good from evil. They will aprove that which God approves, and will strive earnestly against the introduction of wrong principles into his cause- 
+				influences and to discern right from wrong, good from evil. They will aprove that which God approves, and will strive earnestly against the introduction of wrong principles into his cause-
 				<span class="text-success"> Prophets and Kings, 31</span>
 			</p>
 			</div>
@@ -927,7 +925,7 @@
 					<input type="submit" value="Send Message" class="btn btn-primary py-3 px-5">
 				</div>
 				</form>
-			
+
 			</div>
 
 			<div class="col-md-5 d-flex">
@@ -981,7 +979,7 @@
 			</div>
 		</div>
 		</section>
-		
+
 		<section class="ftco-section ftco-no-pt ftco-no-pb">
 			<div id="" class="bg-white">
 				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d243703.29674709542!2d30.14391379666787!3d-17.370275454607096!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1930b5c984f691df%3A0xc4678850606e6b67!2sSeventh%20Day%20Adventist%20Church!5e0!3m2!1sen!2szw!4v1597617590613!5m2!1sen!2szw" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
@@ -1016,7 +1014,7 @@
                 <li><a href="#" class="py-1 d-block"><span class="ion-ios-arrow-forward mr-3"></span>Weddings &amp; Funerals</a></li>
                 <li><a href="#" class="py-1 d-block"><span class="ion-ios-arrow-forward mr-3"></span>Fellowships</a></li>
 
-              </ul> 
+              </ul>
             </div>
           </div>
           <div class="col-md">
@@ -1070,9 +1068,9 @@
   <script src={{ asset("js/scrollax.min.js") }}></script>
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false">
   </script>
-  <script src={{ asset('js/google-map.js') }}></script>
+  {{-- <script src={{ asset('js/google-map.js') }}></script> --}}
 
   <script src={{ asset("js/main.js") }}></script>
-    
+
   </body>
 </html>

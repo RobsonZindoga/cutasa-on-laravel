@@ -14,7 +14,8 @@ class MemberController extends Controller
      */
     public function index()
     {
-        //
+        $member = Member::all();
+        return $member;
     }
 
     /**
@@ -35,7 +36,34 @@ class MemberController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $validated = $request->validate([
+            'name'=>['min:5','required'],
+            'occupation'=>['required'],
+            'email'=>['required','unique:members'],
+            'contact'=>['required'],
+            'graduation'=>['required'],
+            'address'=>['min:5','required'],
+            'field_of_study'=>['required'],
+        ]);
+        if ($request->hasFile('image_url')) {
+            $path = $request->file('image_url')->store('files/images',['disk' => 'public']);
+            if($path){
+                $doc = array(
+                    'name'=>$request->name,
+                    'email'=>$request->email,
+                    'occupation'=>$request->contact,
+                    'graduation'=>$request->graduation,
+                    'address'=>$request->address,
+                    'image_url'=>$path,
+                    'field_of_study'=>$path,
+                );
+                $member = Member::create($doc);
+            }
+        }
+        else{
+            $member = Member::create($request->all());
+        }
+        return '';
     }
 
     /**

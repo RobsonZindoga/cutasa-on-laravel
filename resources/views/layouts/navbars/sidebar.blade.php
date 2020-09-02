@@ -2,7 +2,7 @@
     <div class="sidebar-wrapper">
         <div class="logo">
             <a href="#" class="simple-text logo-mini">{{ _('') }}</a>
-            <a href="#" class="simple-text logo-normal">{{ _('CUTASA') }}</a>
+            <a href="#" class="simple-text logo-normal">{{ _('CUTAA') }}</a>
         </div>
         <ul class="nav">
             <li @if ($pageSlug == 'dashboard') class="active " @endif>
@@ -59,7 +59,7 @@
                     <p>{{ _('Donations') }}</p>
                 </a>
             </li>
-            
+
         </ul>
     </div>
 </div>
