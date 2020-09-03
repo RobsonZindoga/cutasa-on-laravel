@@ -9,14 +9,14 @@
     <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Great+Vibes&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+    {{-- <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css"> --}}
     <link rel="stylesheet" href="css/animate.css">
 
     <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    {{-- <link rel="stylesheet" href="css/owl.theme.default.min.css"> --}}
     <link rel="stylesheet" href="css/magnific-popup.css">
 
-    <link rel="stylesheet" href="css/aos.css">
+    {{-- <link rel="stylesheet" href="css/aos.css"> --}}
 
     <link rel="stylesheet" href="css/ionicons.min.css">
 
@@ -59,7 +59,7 @@
 	          <div class="col-md-8 text-center ftco-animate mt-5">
 	          	<div class="text">
 	          		<div class="subheading">
-	          			<span>CUT alumni Adventist Association</span>
+	          			<span>CUT Adventist Alumni</span>
 	          		</div>
 		            <h1 class="mb-4">Enhancing <span>networking,</span> revival and </h1>
 		            <p>unity of the Alumni as well as promoting outreach programs for soul winning.</p>
@@ -112,7 +112,7 @@
 					<div class="one-half img" style="background-image: url('images/event.jpg');"></div>
 					<div class="one-half half-text d-flex justify-content-end align-items-center ftco-animate">
 						<div class="text-inner pl-md-5">
-              <h3 class="heading text-center">CUT<span> Adventist</span> Association</h3>
+              <h3 class="heading text-center">CUT<span> Adventist</span> Alumni</h3>
               <p>
 				  ASA is a group of <strong>intellectuals</strong> that come together with a shared version of enriching as well as outreaching
 				  the community spiritually. It commonly noticed that the more a person gets educated, the less he or she becomes devoted to the
@@ -192,7 +192,7 @@
 				<div class="row justify-content-center pb-5">
           <div class="col-md-12 heading-section text-center ftco-animate">
           	<span class="subheading">Services</span>
-            <h2 class="mb-4" >CUT Association Services</h2>
+            <h2 class="mb-4" >CUT Adventist Alumini Services</h2>
             <p>
 				If you are looking for something better, if you're looking for a way out of your troubles, we can help.
 			</p>
@@ -257,7 +257,7 @@
 				<div class="row justify-content-center pb-5">
 					<div class="col-md-12 heading-section text-center ftco-animate">
 						<span class="subheading">Sermons</span>
-						<h2 class="mb-4">CUT Association Sermons</h2>
+						<h2 class="mb-4">CUT Adventist Alumni Sermons</h2>
 						<p>
 							Enhancing networking, revival and unity of the Alumni as well as promoting outreach programs for soul winning
 						</p>
@@ -525,9 +525,9 @@
 			<div class="container">
 				<div class="row justify-content-center pb-5">
 					<div class="col-md-12 heading-section text-center ftco-animate">
-						<span class="subheading">Association Activities</span>
-						<h2 class="mb-5">CUT Association on Campus Activities</h2>
-						<p>The ASA family is mandated to provide activities that enrich members both spiritually and physically as described below</p>
+						<span class="subheading">Alumni Activities</span>
+						<h2 class="mb-5">Our Alumni Activities</h2>
+						<p>The CUTAA family is mandated to provide activities that enrich members both spiritually and physically as described below</p>
 					</div>
 				</div>
 				<div class="row">
@@ -537,7 +537,7 @@
 							<div class="text p-3">
 								<h3><a href="#">Homeland Music Group</a></h3>
 								<p class="text-justify">
-									Homeland is a Music Group made up ASA Students and members from Chinhoyi central Church. Other Groups such as Pearly Gates, Enlightened etc come from Homeland
+									Homeland is a Music Group made up of Association Students and Alumni members from Chinhoyi central Church. Other Groups such as Pearly Gates, Enlightened etc come from Homeland
 
 								</p>
 								<p><a href="#" class="btn btn-outline-warning float-center">Read More</a></p>
@@ -658,7 +658,7 @@
 					</div>
 					<h3 class="heading"><a href="https://spiked.co.zw/glytime-foods-penetrates-the-regional-market/">Glytime Company founded by Alumni Member</a></h3>
 					<p>
-						CUT ASA Alumni is made up of intreprenuers who are making it in the society. Glytime is now suplying all over Zimbabwe and Botswana
+						CUT Adventist Alumni is made up of intreprenuers who are making it in the society. Glytime is now suplying all over Zimbabwe and Botswana
 					</p>
 					<div class="d-flex align-items-center mt-4 meta">
 						<p class="mb-0"><a href="https://spiked.co.zw/glytime-foods-penetrates-the-regional-market/" class="btn btn-primary">Read More <span class="ion-ios-arrow-round-forward"></span></a></p>
@@ -685,7 +685,7 @@
 						</div>
 					</div>
 					<h3 class="heading"><a href="single.html">Zoom Wedding for Rutendo and Tinotenda</a></h3>
-					<p>ASA is a family which supports and encourages weddings between ASA members and non ASA members. Zoom Wedding in Lockdown</p>
+					<p>CUTAA is a family which supports and encourages weddings between CUTAA members and non CUTAA members. Zoom Wedding in Lockdown</p>
 					<div class="d-flex align-items-center mt-4 meta">
 						<p class="mb-0"><a href="#" class="btn btn-primary">Read More <span class="ion-ios-arrow-round-forward"></span></a></p>
 						<p class="ml-auto mb-0">
@@ -730,7 +730,7 @@
 				<div class="row justify-content-center mb-5 pb-3">
 			  <div class="col-md-7 heading-section ftco-animate text-center">
 				<h3 class="subheading">Gallery</h3>
-				<h2 class="mb-1">CUT ASA Alumni Church Photo Gallery</h2>
+				<h2 class="mb-1">CUT Adventist Alumni Church Photo Gallery</h2>
 			  </div>
 			</div>
 				<div class="row">
