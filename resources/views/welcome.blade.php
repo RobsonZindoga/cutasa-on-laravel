@@ -9,7 +9,7 @@
     <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Great+Vibes&display=swap" rel="stylesheet">
 
-    {{-- <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css"> --}}
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
     <link rel="stylesheet" href="css/animate.css">
 
     <link rel="stylesheet" href="css/owl.carousel.min.css">
@@ -114,9 +114,14 @@
 						<div class="text-inner pl-md-5">
               <h3 class="heading text-center">CUT<span> Adventist</span> Alumni</h3>
               <p>
-				  ASA is a group of <strong>intellectuals</strong> that come together with a shared version of enriching as well as outreaching
-				  the community spiritually. It commonly noticed that the more a person gets educated, the less he or she becomes devoted to the
-				  ministry of the gospel due to time management and having a feeling of (Im ok I dont need any spiritual help my life is in shape)
+				We as CUTAA we hold Christ’s birth, life, sacrifice on the Cross at Calvary, subsequent
+				resurrection, His High Priestly ministry in the heavenly Sanctuary and the promise of His soon
+				return as the central theme and ultimate focus of our faith. The suffering and death of Jesus Christ
+				and the sacred history portrayed in the Bible provide evidence of the eternal salvation that comes
+				through our faith in Him and our acceptance of His righteousness. We accept the Bible as our
+				only creed and hold certain fundamental beliefs, as set forth herein, to be the teaching of the Holy
+				Scriptures. We believe in the mission of the church as commanded by Jesus in Matthew 28:19-20
+				of preaching the gospel to the entire world,
 			  </p>
               <p>
 				The objectives of the Chinhoyi University of Technology Adventist Alumni are:
