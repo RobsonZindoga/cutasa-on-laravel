@@ -1,8 +1,8 @@
 @extends('layouts.webpage.index', ['page' => __('Member Login'), 'pageSlug' => 'home-page'])
 
 @section('content')
-	
-    
+
+
 	<section class="home-slider js-fullheight owl-carousel">
       <div class="slider-item js-fullheight" style="background-image:url(images/20191130_103822.jpg);">
       	<div class="overlay"></div>
@@ -59,13 +59,12 @@
     </section>
 
     <section class="ftco-section ftco-no-pt ftco-no-pb ftco-about-section" id="about-section">
-    	<div class="container-fluid px-0">
-    		<div class="row d-md-flex text-wrapper">
-					<div class="one-half img" style="background-image: url('images/event.jpg');"></div>
-					<div class="one-half half-text d-flex justify-content-end align-items-center ftco-animate">
-						<div class="text-inner pl-md-5">
-              <h3 class="heading text-center">CUT<span> Adventist</span> Alumni</h3>
-              <p>
+    	<div class="container px-0 pt-3">
+					{{-- <div class=" img" style="background-image: url('images/event.jpg');"></div> --}}
+		<div class=" d-flex justify-content-end align-items-center ftco-animate">
+			<div class="text-inner pl-md-5">
+              <h2 class="heading text-center">CUT<span> Adventist</span> Alumni</h2>
+              <p class="text-center">
 				We as CUTAA we hold Christ’s birth, life, sacrifice on the Cross at Calvary, subsequent
 				resurrection, His High Priestly ministry in the heavenly Sanctuary and the promise of His soon
 				return as the central theme and ultimate focus of our faith. The suffering and death of Jesus Christ
@@ -78,7 +77,7 @@
               <p>
 				The objectives of the Chinhoyi University of Technology Adventist Alumni are:
 			 </p>
-              <ul class="my-4">
+              <ul class="my-4" style="list-style-type: none;">
 				  <li><span class="ion-ios-checkmark-circle mr-2"></span>
 					To provide the opportunity to become acquainted with and enjoy the fellowship of alumni who
 					hold membership and have interest in the Seventh-day Adventist denomination.
@@ -88,7 +87,6 @@
               	<li><span class="ion-ios-checkmark-circle mr-2"></span> To keep members informed of recent trends and concerns of the Seventh-day Adventist church.</li>
               </ul>
             </div>
-					</div>
     		</div>
     	</div>
     </section>
@@ -213,12 +211,12 @@
 					<div class="col-lg-10">
 						<div class="donated-intro bg-darken p-4 p-md-5">
 							<h2>Donations so far <span>$</span><strong class="number" data-number="1000">0</strong></h2>
-    					<p>
+    					<p class="text-white">
 							So today God desires His Children, both in spiritual and in temporal things, to impart blessings to the world.
 							For every disciple of christ in every age were spoken those precious words of the Saviour. Out of him "shall flow rivers
 							of living water" {6T 274.2}
 						</p>
-						<p>
+						<p class="text-white">
 							But instead of impating the gifts of God, many who profess to be Christians are wrapped up in their own narrow interests,
 							and they selfishly withhold God`s blessings from their fellow men {6T 274.3}
 						</p>
@@ -354,7 +352,7 @@
 			</div>
 		</section>
 
-	
+
 
 		<section class="ftco-section ftco-no-pt ftco-no-pb">
 			<div id="" class="bg-white">
@@ -362,7 +360,7 @@
 			</div>
 		</section>
 
-   
+
 
 
 @endsection

@@ -45,8 +45,9 @@ class MemberController extends Controller
             'address'=>['min:5','required'],
             'field_of_study'=>['required'],
         ]);
+        // return $request;
         if ($request->hasFile('image_url')) {
-            
+
             $path = $request->file('image_url')->store('files/images',['disk' => 'public']);
             if($path){
                 $doc = array(
@@ -59,15 +60,12 @@ class MemberController extends Controller
                     'field_of_study'=>$path,
                 );
                 $member = Member::create($doc);
-                
-                return ['message' => 'Success'];
             }
         }
         else{
             $member = Member::create($request->all());
-            return ['message' => 'Success'];
         }
-        return ;
+        return redirect('welcome')->withSuccess('Member details successfully saved');
     }
 
     /**

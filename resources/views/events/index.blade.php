@@ -36,7 +36,7 @@
                 </tr>
                 </thead>
                 <tbody>
-                @foreach ($events as $event)
+                @foreach ($events ?? '' as $event)
                     <tr>
                     <td>
                     {{$event->title}}
