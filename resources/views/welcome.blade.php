@@ -11,7 +11,7 @@
 	          <div class="col-md-8 text-center ftco-animate mt-5">
 	          	<div class="text">
 	          		<div class="subheading">
-	          			<span>CUT alumni Adventist Association</span>
+	          			<span>CUT Adventist Alumni</span>
 	          		</div>
 		            <h1 class="mb-4">Enhancing <span>networking,</span> revival and </h1>
 		            <p>unity of the Alumni as well as promoting outreach programs for soul winning.</p>
@@ -64,11 +64,16 @@
 					<div class="one-half img" style="background-image: url('images/event.jpg');"></div>
 					<div class="one-half half-text d-flex justify-content-end align-items-center ftco-animate">
 						<div class="text-inner pl-md-5">
-              <h3 class="heading text-center">CUT<span> Adventist</span> Association</h3>
+              <h3 class="heading text-center">CUT<span> Adventist</span> Alumni</h3>
               <p>
-				  ASA is a group of <strong>intellectuals</strong> that come together with a shared version of enriching as well as outreaching
-				  the community spiritually. It commonly noticed that the more a person gets educated, the less he or she becomes devoted to the
-				  ministry of the gospel due to time management and having a feeling of (Im ok I dont need any spiritual help my life is in shape)
+				We as CUTAA we hold Christ’s birth, life, sacrifice on the Cross at Calvary, subsequent
+				resurrection, His High Priestly ministry in the heavenly Sanctuary and the promise of His soon
+				return as the central theme and ultimate focus of our faith. The suffering and death of Jesus Christ
+				and the sacred history portrayed in the Bible provide evidence of the eternal salvation that comes
+				through our faith in Him and our acceptance of His righteousness. We accept the Bible as our
+				only creed and hold certain fundamental beliefs, as set forth herein, to be the teaching of the Holy
+				Scriptures. We believe in the mission of the church as commanded by Jesus in Matthew 28:19-20
+				of preaching the gospel to the entire world,
 			  </p>
               <p>
 				The objectives of the Chinhoyi University of Technology Adventist Alumni are:
@@ -144,7 +149,7 @@
 				<div class="row justify-content-center pb-5">
           <div class="col-md-12 heading-section text-center ftco-animate">
           	<span class="subheading">Services</span>
-            <h2 class="mb-4" >CUT Association Services</h2>
+            <h2 class="mb-4" >CUT Adventist Alumini Services</h2>
             <p>
 				If you are looking for something better, if you're looking for a way out of your troubles, we can help.
 			</p>
