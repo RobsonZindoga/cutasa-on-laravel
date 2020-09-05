@@ -18,6 +18,7 @@ class UsersTableSeeder extends Seeder
             'email' => 'admin@cutasa.com',
             'email_verified_at' => now(),
             'password' => Hash::make('pass1234'),
+            'status' => 1,
             'created_at' => now(),
             'updated_at' => now()
         ]);

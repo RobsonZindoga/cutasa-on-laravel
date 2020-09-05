@@ -14,7 +14,10 @@ class DonationsController extends Controller
      */
     public function index()
     {
-        //
+        $data = [
+            'donations' => Donations::all(),
+        ];
+        return view('donations.index', $data);
     }
 
     /**

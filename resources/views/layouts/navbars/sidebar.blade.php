@@ -36,27 +36,33 @@
                 </div>
             </li>
             <li @if ($pageSlug == 'icons') class="active " @endif>
-                <a href="{{ route('pages.icons') }}">
+                <a href="{{ route('admin-gallery.index') }}">
                     <i class="tim-icons icon-atom"></i>
                     <p>{{ _('Gallery') }}</p>
                 </a>
             </li>
             <li @if ($pageSlug == 'maps') class="active " @endif>
-                <a href="{{ route('pages.maps') }}">
+                <a href="{{ route('admin-sermons.index') }}">
                     <i class="tim-icons icon-pin"></i>
                     <p>{{ _('Sermons') }}</p>
                 </a>
             </li>
-            <li @if ($pageSlug == 'notifications') class="active " @endif>
-                <a href="{{ route('pages.notifications') }}">
+            <li @if ($pageSlug == 'events') class="active " @endif>
+                <a href="{{ route('admin-events.index') }}">
                     <i class="tim-icons icon-bell-55"></i>
                     <p>{{ _('Events') }}</p>
                 </a>
             </li>
             <li @if ($pageSlug == 'tables') class="active " @endif>
-                <a href="{{ route('pages.tables') }}">
+                <a href="{{ route('admin-donations.index') }}">
                     <i class="tim-icons icon-puzzle-10"></i>
                     <p>{{ _('Donations') }}</p>
+                </a>
+            </li>
+            <li @if ($pageSlug == 'category') class="active " @endif>
+                <a href="{{ route('admin-category.index') }}">
+                    <i class="tim-icons icon-bell-55"></i>
+                    <p>{{ _('Category') }}</p>
                 </a>
             </li>
 

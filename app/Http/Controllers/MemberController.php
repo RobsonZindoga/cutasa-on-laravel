@@ -25,7 +25,7 @@ class MemberController extends Controller
      */
     public function create()
     {
-        //
+        return view('auth.member.registration');
     }
 
     /**
@@ -46,6 +46,7 @@ class MemberController extends Controller
             'field_of_study'=>['required'],
         ]);
         if ($request->hasFile('image_url')) {
+            
             $path = $request->file('image_url')->store('files/images',['disk' => 'public']);
             if($path){
                 $doc = array(
@@ -58,12 +59,15 @@ class MemberController extends Controller
                     'field_of_study'=>$path,
                 );
                 $member = Member::create($doc);
+                
+                return ['message' => 'Success'];
             }
         }
         else{
             $member = Member::create($request->all());
+            return ['message' => 'Success'];
         }
-        return '';
+        return ;
     }
 
     /**

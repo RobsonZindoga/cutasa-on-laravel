@@ -22,7 +22,7 @@ class CreateMembersTable extends Migration
             $table->text('occupation');
             $table->year('graduation');
             $table->text('field_of_study');
-            $table->text('image_url');
+            $table->text('image_url')->default('');
             $table->timestamps();
         });
     }

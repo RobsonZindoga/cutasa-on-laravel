@@ -14,7 +14,10 @@ class SermonController extends Controller
      */
     public function index()
     {
-        //
+        $data =[
+            'sermons' => Sermon::all()
+        ];
+        return view('sermons.index', $data);
     }
 
     /**

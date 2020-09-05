@@ -2,8 +2,10 @@
 
 namespace App\Http\Controllers;
 
+
 use App\Events;
 use Illuminate\Http\Request;
+use App\Http\Controllers\Controller;
 
 class EventsController extends Controller
 {
@@ -14,7 +16,11 @@ class EventsController extends Controller
      */
     public function index()
     {
-        //
+        $data = [
+            'events' => Events::all(),
+        ];
+        
+        return view('events.index',$data);
     }
 
     /**
@@ -35,7 +41,24 @@ class EventsController extends Controller
      */
     public function store(Request $request)
     {
-        //
+       
+        $validData = $request->validate([
+            
+            'title' => ['required'],
+            'description' => ['required'], 
+            'date' => ['required'],
+            'category_id' => ['required'],
+            'image_url' => ['mimes:png,jpg,jpeg','nullable']
+        ]);
+        
+        if($request->hasFile('img_url')){
+            $validData['image_url'] = 'storage/' . $request->file('image_url')->store('images/events', ['disk' =>
+            'public']);
+        }
+        // dd($validData);
+        $event = Events::create($validData);
+        return redirect()->route('admin-events.index')->withStatus('Event Added Successfully');
+        
     }
 
     /**
@@ -67,9 +90,30 @@ class EventsController extends Controller
      * @param  \App\Events  $events
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Events $events)
+    public function update(Request $request, Events $event)
     {
-        //
+        
+        $validData = $request->validate([
+
+        'title' => ['string','nullable'],
+        'description' => ['string','nullable'],
+        'date' => ['date','nullable'],
+        'category_id' => ['numeric','nullable'],
+        'image_url' => ['mimes:png,jpg,jpeg','nullable']
+        ]);
+
+        if($request->hasFile('img_url')){
+        $validData['image_url'] = 'storage/' . $request->file('image_url')->store('images/events', ['disk' =>
+        'public']);
+        }
+        // dd($validData);
+        $event = Events::find($event);
+        if($event){
+            $event->update()->$request->all();
+            return redirect()->back()->withStatus('Event Updated Successfully');
+        }
+        return redirect()->route()->withErrors('Event  Not Updated Successfully');
+        
     }
 
     /**

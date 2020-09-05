@@ -18,12 +18,12 @@
         <div class="collapse navbar-collapse" id="navigation">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a href="{{ route('home') }}" class="nav-link text-primary">
-                        <i class="tim-icons icon-minimal-left"></i> {{ _('Back to Dashboard') }}
+                    <a href="/" class="nav-link text-primary">
+                        <i class="tim-icons icon-minimal-left"></i> {{ _('Back to Website') }}
                     </a>
                 </li>
                 <li class="nav-item ">
-                    <a href="{{ route('register') }}" class="nav-link">
+                    <a href="/member_register" class="nav-link">
                         <i class="tim-icons icon-laptop"></i> {{ _('Register') }}
                     </a>
                 </li>

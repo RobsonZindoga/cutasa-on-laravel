@@ -11,7 +11,8 @@ class Events extends Model
         'title',
         'description',
         'category_id',
-        'image_url'
+        'image_url',
+        'date'
     ];
     public function category()
     {
