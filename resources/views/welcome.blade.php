@@ -4,7 +4,7 @@
 
 
 	<section class="home-slider js-fullheight owl-carousel">
-      <div class="slider-item js-fullheight" style="background-image:url(images/20191130_103822.jpg);">
+      <div class="slider-item js-fullheight" style="background-image:url(images/about-2.jpg);">
       	<div class="overlay"></div>
 	        <div class="container">
 	          <div class="row no-gutters slider-text js-fullheight align-items-center justify-content-center" data-scrollax-parent="true">
@@ -15,48 +15,57 @@
 	          		</div>
 		            <h1 class="mb-4">Enhancing <span>networking,</span> revival and </h1>
 		            <p>unity of the Alumni as well as promoting outreach programs for soul winning.</p>
-		            <p><a class="btn btn-primary py-2 px-4" href="https://forms.gle/r16ps5V3Te8Dhy9h9">Be part of us</a> <a href="#" class="btn btn-primary btn-outline-primary py-2 px-4">Read more</a></p>
+		            <p><a class="btn btn-primary py-2 px-4" href="#">Be part of us</a> <a href="#" class="btn btn-primary btn-outline-primary py-2 px-4">Read more</a></p>
 				</div>
 	          </div>
 	        </div>
         </div>
       </div>
 
-      <div class="slider-item js-fullheight" style="background-image:url(images/bg_2.jpg);">
+      <div class="slider-item js-fullheight" style="background-image:url(images/covid.jpeg);">
       	<div class="overlay"></div>
 	        <div class="container">
 	          <div class="row no-gutters slider-text js-fullheight align-items-center justify-content-center" data-scrollax-parent="true">
 	          <div class="col-md-8 text-center ftco-animate mt-5">
 	          	<div class="text">
 	          		<div class="subheading">
-	          			<span>Seventhday Adventist Church</span>
+	          			<span>CUT Adventist Alumni</span>
 	          		</div>
-		            <h1 class="mb-4">We <span>Love</span> God, We Believe in God</h1>
-		            <p>The righteousness by which we are justified is imputed; the righteousness by which we are sanctified is imparted. The first is our title to heaven, the second is our fitness for heaven. E White</p>
-		            <p><a class="btn btn-primary py-2 px-4" href="https://forms.gle/r16ps5V3Te8Dhy9h9">Be part of us</a> <a href="#" class="btn btn-primary btn-outline-primary py-2 px-4">Read more</a></p>
+		            <h1 class="mb-4">We <span>Join</span> Hands in the Fight Against Covid 19</h1>
+		            {{-- <p>The righteousness by which we are justified is imputed; the righteousness by which we are sanctified is imparted. The first is our title to heaven, the second is our fitness for heaven. E White</p> --}}
+		            <p><a class="btn btn-primary py-2 px-4" href="#">Be part of us</a> <a href="#" class="btn btn-primary btn-outline-primary py-2 px-4">Read more</a></p>
 	            </div>
 	          </div>
 	        </div>
         </div>
 	  </div>
-	  <div class="slider-item js-fullheight" style="background-image:url(images/WP_20140914_004.jpg);">
+	  <div class="slider-item js-fullheight" style="background-image:url(images/20191130_103822.jpg);">
 		<div class="overlay"></div>
 		  <div class="container">
 			<div class="row no-gutters slider-text js-fullheight align-items-center justify-content-center" data-scrollax-parent="true">
 			<div class="col-md-8 text-center ftco-animate mt-5">
 				<div class="text">
 					<div class="subheading">
-						<span>Vana Baba Wing in Association</span>
+						<span>Homeland Glory Music</span>
 					</div>
 				  <h1 class="mb-4">Following <span>Jesus</span> wherever we are</h1>
 				  <p>A knowledge of the truth depends not so much upon strength of intellect as upon pureness of purpose, the simplicity of an earnest, dependent faith. E White Prayer</p>
-				  <p><a class="btn btn-primary py-2 px-4" href="https://forms.gle/r16ps5V3Te8Dhy9h9" >Be part of us</a> <a href="#" class="btn btn-primary btn-outline-primary py-2 px-4">Read more</a></p>
+				  <p><a class="btn btn-primary py-2 px-4" href="#" >Be part of us</a> <a href="#" class="btn btn-primary btn-outline-primary py-2 px-4">Read more</a></p>
 			  </div>
 			</div>
 		  </div>
 	  </div>
 	</div>
     </section>
+    @if ($errors->any())
+        <div class="alert alert-danger">
+            <ul>
+                @foreach ($errors->all() as $error)
+                    <li>{{ $error }}</li>
+                @endforeach
+            </ul>
+        </div>
+    @endif
 
     <section class="ftco-section ftco-no-pt ftco-no-pb ftco-about-section" id="about-section">
     	<div class="container px-0 pt-3">

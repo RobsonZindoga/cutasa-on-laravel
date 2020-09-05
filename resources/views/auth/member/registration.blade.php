@@ -8,7 +8,7 @@
             </div>
             <div class="card-body">
                 <h2 class="card-title text-center">Register</h2>
-            <form class="form-signin" method="post" action="{{route('member.store')}}">
+            <form class="form-signin" method="post" action="{{route('member.store')}}" enctype="multipart/form-data">
                 @csrf
                     <div class="row">
                         <div class="col-md-6">
