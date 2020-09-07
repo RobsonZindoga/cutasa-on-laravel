@@ -14,8 +14,10 @@ class MemberController extends Controller
      */
     public function index()
     {
-        $member = Member::all();
-        return $member;
+        $data =[
+        'members' => Member::all()
+        ];
+        return view('member.index', $data);
     }
 
     /**

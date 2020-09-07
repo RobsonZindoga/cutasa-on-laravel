@@ -65,6 +65,12 @@
                     <p>{{ _('Category') }}</p>
                 </a>
             </li>
+             <li @if ($pageSlug == 'members') class="active " @endif>
+                <a href="{{ route('admin-members.index') }}">
+                    <i class="tim-icons icon-bell-55"></i>
+                    <p>{{ _('Members') }}</p>
+                </a>
+            </li>
 
         </ul>
     </div>

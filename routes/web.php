@@ -62,3 +62,4 @@ Route::resource('admin-sermons','SermonController');
 Route::resource('admin-gallery','GalleryController');
 Route::resource('admin-donations','DonationsController');
 Route::resource('admin-category','CategoryController');
+Route::resource('admin-members','MemberController');
