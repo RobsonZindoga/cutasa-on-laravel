@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
-        <title>CUT | Alumni</title>
+        <title>CUT | AA</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -19,8 +19,7 @@
         <link rel="stylesheet" href="css/aos.css">
 
         <link rel="stylesheet" href="css/ionicons.min.css">
-        <link rel="apple-touch-icon" sizes="76x76" href="{{ asset('white') }}/img/apple-icon.png">
-        <link rel="icon" type="image/png" href="{{ asset('white') }}/img/favicon.png">
+        <link rel='icon' href="{{ asset('images/asa.ico') }}" type='image/x-icon'/ >
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,600,700,800" rel="stylesheet" />
         <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
@@ -37,7 +36,7 @@
         <link rel='icon' href='asa.ico' type='image/x-icon'>
     </head>
     <body class="white-content {{ $class ?? '' }}">
-        
+
         @include('layouts.includes.webnav')
         @yield('content')
         @include('layouts.includes.footer')
