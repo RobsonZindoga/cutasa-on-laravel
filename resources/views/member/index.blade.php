@@ -18,14 +18,14 @@
             <table class="table tablesorter " id="">
                 <thead class=" text-primary">
                 <tr>
-                    
+
                     <th>
                     Name
                     </th>
                     <th>
                     Email
                     </th>
-                    
+
                     <th class="text-center">
                     Contact
                     </th>
@@ -54,39 +54,39 @@
                     </td>
                     <td class="text-center">
                         {{$member->graduation}}
-                        
+
                     </td>
                     <td class="text-center">
                         {{$member->created_at}}
                     </td>
                     <td>
                         <div class="item-action dropdown">
-                                        <a href="#" data-toggle="dropdown" data-abc="true">
-                                            Actions
-                                        </a>
-                                        <div class="dropdown-menu dropdown-menu-right bg-black" role="menu">
-                                            <h6 class="dropdown-header">Action</h6>
-                                            <a class="dropdown-item download" data-abc="true" data-toggle="modal"
-                                                data-target="#viewEvent{{$member->id }}">View</a>
-                                            <a class="dropdown-item edit" data-abc="true" data-toggle="modal"
-                                                data-target="#editEvent{{ $member->id }}">Update</a>
-                                            <a class="dropdown-item edit" data-abc="true" target="_blank"
-                                                href="/{{ $member->image_url }}">Download Image</a>
-                                            <div class="dropdown-divider">
-                                            </div>
-                                            <form class="dropdown-item" action="{{ route('admin-members.destroy', $member->id) }}"
-                                                method="post">
-                                                @csrf
-                                                @method('DELETE')
-                                                <button
-                                                    class="btn btn-link btn-block m-0 shadow-none btn-lg p-0 text-left"
-                                                    type="submit">
-                                                    Delete
-                                                </button>
-                                            </form>
+                            <a href="#" data-toggle="dropdown" data-abc="true">
+                                Actions
+                            </a>
+                            <div class="dropdown-menu dropdown-menu-right bg-black" role="menu">
+                                <h6 class="dropdown-header">Action</h6>
+                                <a class="dropdown-item download" data-abc="true" data-toggle="modal"
+                                    data-target="#viewEvent{{$member->id }}">View</a>
+                                <a class="dropdown-item edit" data-abc="true" data-toggle="modal"
+                                    data-target="#editEvent{{ $member->id }}">Update</a>
+                                <a class="dropdown-item edit" data-abc="true" target="_blank"
+                                    href="/{{ $member->image_url }}">Download Image</a>
+                                <div class="dropdown-divider">
+                                </div>
+                                <form class="dropdown-item" action="{{ route('admin-members.destroy', $member->id) }}"
+                                    method="post">
+                                    @csrf
+                                    @method('DELETE')
+                                    <button
+                                        class="btn btn-link btn-block m-0 shadow-none btn-lg p-0 text-left"
+                                        type="submit">
+                                        Delete
+                                    </button>
+                                </form>
 
-                                            </span>
-                                        </div>
+                                </span>
+                            </div>
                         </div>
                     </td>
                 </tr>
@@ -97,7 +97,7 @@
         </div>
         </div>
     </div>
-</div>   
+</div>
 @endsection
 
 @include('member.edit')

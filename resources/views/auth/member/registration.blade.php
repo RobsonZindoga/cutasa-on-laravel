@@ -3,12 +3,12 @@
 @section('content')
     <div class="col-lg-10 col-xl-10 mx-auto">
         <div class="card card-signin flex-row ">
-            <div class="card-img-left d-none d-md-flex" style="background: purple">
+            <div class="card-img-left d-none d-md-flex" style="background: rgb(28, 0, 128)">
                 <img src="{{ url('images/asa.png') }}" alt="" style="max-height: 5rem;">
             </div>
             <div class="card-body">
-                <h2 class="card-title text-center">Register</h2>
-            <form class="form-signin" method="post" action="{{route('member.store')}}" enctype="multipart/form-data">
+                <h2 class="card-title text-center">Register for CUTAA Membership</h2>
+                <form class="form-signin" method="post" action="{{route('member.store')}}" enctype="multipart/form-data">
                 @csrf
                     <div class="row">
                         <div class="col-md-6">
@@ -47,24 +47,12 @@
                                 </div>
                             </div>
                     </div>
-
                     <hr>
-
                     <div class="form-label-group">
                         <label for="address">Address</label>
                         <input type="text" name="address" id="address" class="form-control" placeholder="Address" required>
                     </div>
 
-                    <div class="form-label-group">
-                        <label for="inputPassword">Password</label>
-                        <input type="password" id="inputPassword" class="form-control" placeholder="Password"
-                            required>
-                    </div>
-                    <div class="form-label-group">
-                        <label for="inputConfirmPassword">Confirm password</label>
-                        <input type="password" id="inpuConfirmtPassword" class="form-control" placeholder="Confirm Password"
-                            required>
-                    </div>
                     <div class="form-label-group">
                         <label for="">Input Image</label>
                         <input type="file" name="image_url" id="image_url" class="form-control">
@@ -76,6 +64,5 @@
             </div>
         </div>
     </div>
-    </div>
-    </div>
+
 @endsection

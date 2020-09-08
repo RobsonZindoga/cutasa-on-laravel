@@ -11,6 +11,12 @@
                     <p>{{ _('Dashboard') }}</p>
                 </a>
             </li>
+            <li @if ($pageSlug == 'members') class="active " @endif>
+                <a href="{{ route('admin-members.index') }}">
+                    <i class="tim-icons icon-bell-55"></i>
+                    <p>{{ _('Members') }}</p>
+                </a>
+            </li>
             <li>
                 <a data-toggle="collapse" href="#laravel-examples" aria-expanded="true">
                     <i class="fab fa-laravel" ></i>
@@ -51,24 +57,6 @@
                 <a href="{{ route('admin-events.index') }}">
                     <i class="tim-icons icon-bell-55"></i>
                     <p>{{ _('Events') }}</p>
-                </a>
-            </li>
-            <li @if ($pageSlug == 'tables') class="active " @endif>
-                <a href="{{ route('admin-donations.index') }}">
-                    <i class="tim-icons icon-puzzle-10"></i>
-                    <p>{{ _('Donations') }}</p>
-                </a>
-            </li>
-            <li @if ($pageSlug == 'category') class="active " @endif>
-                <a href="{{ route('admin-category.index') }}">
-                    <i class="tim-icons icon-bell-55"></i>
-                    <p>{{ _('Category') }}</p>
-                </a>
-            </li>
-             <li @if ($pageSlug == 'members') class="active " @endif>
-                <a href="{{ route('admin-members.index') }}">
-                    <i class="tim-icons icon-bell-55"></i>
-                    <p>{{ _('Members') }}</p>
                 </a>
             </li>
 

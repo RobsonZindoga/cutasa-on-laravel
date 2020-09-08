@@ -55,11 +55,12 @@ class MemberController extends Controller
                 $doc = array(
                     'name'=>$request->name,
                     'email'=>$request->email,
-                    'occupation'=>$request->contact,
+                    'occupation'=>$request->occupation,
                     'graduation'=>$request->graduation,
                     'address'=>$request->address,
                     'image_url'=>$path,
-                    'field_of_study'=>$path,
+                    'field_of_study'=>$request->field_of_study,
+                    'contact'=>$request->contact,
                 );
                 $member = Member::create($doc);
             }
