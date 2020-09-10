@@ -1,6 +1,7 @@
 @extends('layouts.app', ['page' => __('members'), 'pageSlug' => 'members'])
 
 @section('content')
+
 <div class="row">
     <div class="col-md-12">
         <div class="card">
@@ -98,6 +99,7 @@
         </div>
     </div>
 </div>
+
 @endsection
 
 @include('member.edit')
