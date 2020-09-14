@@ -14,10 +14,8 @@ class MemberController extends Controller
      */
     public function index()
     {
-        $data =[
-        'members' => Member::all()
-        ];
-        return view('member.index', $data);
+       $member = Member::all();
+        return view('member.index', ['members'=>$member]);
     }
 
     /**
@@ -68,7 +66,7 @@ class MemberController extends Controller
         else{
             $member = Member::create($request->all());
         }
-        return redirect('welcome')->withSuccess('Member details successfully saved');
+        return redirect('back')->withSuccess('Member details successfully saved');
     }
 
     /**

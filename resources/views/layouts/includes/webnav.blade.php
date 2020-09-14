@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light site-navbar-target" id="ftco-navbar">
 	    <div class="container">
-	      <a class="navbar-brand" href="/">
+	      <a class="navbar-brand" href="{{ url('/') }}">
 			  <img src="images/sda logo.png" alt="" style="max-height:4rem">
 			  <span class="text-primary font-weight-bold">CUTAA</span>
 		  </a>
@@ -10,7 +10,7 @@
 
 	      <div class="collapse navbar-collapse" id="ftco-nav">
 	        <ul class="navbar-nav nav ml-auto">
-	          <li class="nav-item"><a href="/" class="nav-link"><span>Home</span></a></li>
+	          <li class="nav-item"><a href="{{ url('/') }}" class="nav-link"><span>Home</span></a></li>
 	          <li class="nav-item"><a href="{{ route('pages.gallery') }}" class="nav-link"><span>Gallery</span></a></li>
 	          <li class="nav-item"><a href="{{ route('pages.sermons') }}" class="nav-link"><span>Sermons</span></a></li>
 	          <li class="nav-item"><a href="{{ route('pages.events') }}" class="nav-link"><span>Events</span></a></li>
