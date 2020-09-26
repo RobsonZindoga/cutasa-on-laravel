@@ -3,7 +3,7 @@
         <div class="row mb-5">
           <div class="col-md">
             <div class="ftco-footer-widget mb-4">
-              <h2 class="ftco-heading-2"><span>CUTASA</span> Alumni</h2>
+              <h2 class="ftco-heading-2"><span>CUTAA</span> Alumni</h2>
               <p>The Bible lays much stress upon the practice of hospitality. Not only does it enjoin hospitality as a duty, but it presents many beautiful
 				   pictures of the exercise of this grace. Foremost among these is the experience of Abraham....
 				   <span class="text-success">AH 445.1</span>
@@ -33,7 +33,7 @@
             <div class="ftco-footer-widget mb-4 ml-md-5">
               <h2 class="ftco-heading-2">Connect</h2>
               <ul class="list-unstyled">
-                <li><a href="#" class="py-1 d-block"><span class="ion-ios-arrow-forward mr-3"></span>Homeland Group</a></li>
+                <li><a href="#" class="py-1 d-block"><span class="ion-ios-arrow-forward mr-3"></span>Homeland Glory</a></li>
                 <li><a href="#" class="py-1 d-block"><span class="ion-ios-arrow-forward mr-3"></span>Adventist Man Group</a></li>
                 <li><a href="#" class="py-1 d-block"><span class="ion-ios-arrow-forward mr-3"></span>Memberships</a></li>
                 <li><a href="#" class="py-1 d-block"><span class="ion-ios-arrow-forward mr-3"></span>Volunteer</a></li>
@@ -43,10 +43,9 @@
           </div>
           <div class="col-md">
              <div class="ftco-footer-widget mb-4">
-              <h2 class="ftco-heading-2">Service Hours</h2>
+              <h2 class="ftco-heading-2">Seventhday Adventist</h2>
               <div class="opening-hours">
-              	<p>Sunday to Friday Service: <span class="mb-3">05:30 pm to 07:00 pm</span></p>
-              	<p>Sartuday Service: <span class="mb-3">08:45 am to 16:30 pm</span></p>
+              	<p>The Seventh-day Adventist Church is a Protestant Christian denomination which is distinguished by its observance of Saturday,the seventh day of the week</p>
               </div>
             </div>
           </div>

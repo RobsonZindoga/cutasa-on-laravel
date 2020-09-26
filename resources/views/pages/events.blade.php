@@ -126,9 +126,9 @@
 			<div class="container">
 				<div class="row justify-content-center pb-5">
 					<div class="col-md-12 heading-section text-center ftco-animate">
-						<span class="subheading">Association Activities</span>
-						<h2 class="mb-5">CUT Association on Campus Activities</h2>
-						<p>The ASA family is mandated to provide activities that enrich members both spiritually and physically as described below</p>
+						<span class="subheading">Adventist Alumni Activities</span>
+						<h2 class="mb-5">CUT Adventist Alumni Activities</h2>
+						<p>The CUTAA family is mandated to provide activities that enrich members both spiritually and physically as described below</p>
 					</div>
 				</div>
 				<div class="row">
@@ -136,9 +136,9 @@
 						<div class="cause-entry ftco-animate">
 							<a href="#" class="img" style="background-image: url(images/20191130_103822.jpg);"></a>
 							<div class="text p-3">
-								<h3><a href="#">Homeland Music Group</a></h3>
+								<h3><a href="#">Homeland Glory Music</a></h3>
 								<p class="text-justify">
-									Homeland is a Music Group made up ASA Students and members from Chinhoyi central Church. Other Groups such as Pearly Gates, Enlightened etc come from Homeland
+									Homeland Glory is a Music Group made up of CUT Adventist Alumni members from Chinhoyi Central Church. Other Groups such as Pearly Gates, Enlightened etc come from Homeland
 
 								</p>
 								<p><a href="#" class="btn btn-outline-warning float-center">Read More</a></p>
@@ -164,8 +164,8 @@
 							<div class="text p-3">
 								<h3><a href="#">Mid Semester Camp</a></h3>
 								<p class="text-justify">
-									Every Semester Students host a Camp Meeting to enrich members spiritually and build relationships in within
-									Association Members. Powerful speakers are envited to share the Gospel
+									Every Semester, Alumni supports Students to host a Camp Meeting to enrich members spiritually and build relationships within
+									Members. Powerful speakers are envited to share the Gospel
 								</p>
 								<p><a href="#" class="btn btn-outline-warning">Read More</a></p>
 							</div>
@@ -175,17 +175,18 @@
 						<div class="cause-entry ftco-animate">
 							<a href="#" class="img" style="background-image: url(images/cause-4.jpg);"></a>
 							<div class="text p-3">
-								<h3><a href="#">Hospital Visits</a></h3>
+								<h3><a href="#">Prison Visits</a></h3>
 								<p class="text-justify">
-									Every Wednesday Association Students assemble to go to visit Patients at Chinhoyi Hospital, pray and feast with them
-									uplifting the name of Christ. Hostel visits are also conducted.
+                                    Each Quarter CUTAA will visit correctional centers and prisons.
+                                    In these facilities they will present to the inmates: Song Service, Prayer, Testimonies, and Devotion.
+                                    Providing written materials, hand bills, books, magazines.
 								</p>
 								<p><a href="#" class="btn btn-outline-warning">Read More</a></p>
 							</div>
 						</div>
 					</div>
 				</div>
-				
+
 			</div>
 		</section>
 

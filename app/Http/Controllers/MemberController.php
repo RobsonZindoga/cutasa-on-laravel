@@ -25,7 +25,7 @@ class MemberController extends Controller
      */
     public function create()
     {
-        return view('auth.member.registration');
+        return view('pages.register');
     }
 
     /**
@@ -66,7 +66,7 @@ class MemberController extends Controller
         else{
             $member = Member::create($request->all());
         }
-        return redirect('back')->withSuccess('Member details successfully saved');
+        return redirect()->back()->withStatus("$member->name Membership created successfully");
     }
 
     /**

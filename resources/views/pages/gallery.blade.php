@@ -19,6 +19,27 @@
         </div>
 				<div class="row">
 						<div class="col-md-3 ftco-animate">
+							<a href="images/IMG_0371.JPG" class="gallery image-popup img d-flex align-items-center" style="background-image: url(images/IMG_0371.JPG);">
+								<div class="icon mb-4 d-flex align-items-center justify-content-center">
+								<span class="icon-instagram"></span>
+							</div>
+							</a>
+						</div>
+						<div class="col-md-3 ftco-animate">
+							<a href="images/IMG_0427.JPG" class="gallery image-popup img d-flex align-items-center" style="background-image: url(images/IMG_0427.JPG);">
+								<div class="icon mb-4 d-flex align-items-center justify-content-center">
+								<span class="icon-instagram"></span>
+							</div>
+							</a>
+						</div>
+						<div class="col-md-3 ftco-animate">
+							<a href="images/IMG_0621.JPG" class="gallery image-popup img d-flex align-items-center" style="background-image: url(images/IMG_0621.JPG);">
+								<div class="icon mb-4 d-flex align-items-center justify-content-center">
+								<span class="icon-instagram"></span>
+							</div>
+							</a>
+						</div>
+						<div class="col-md-3 ftco-animate">
 							<a href="images/staring.jpg" class="gallery image-popup img d-flex align-items-center" style="background-image: url(images/staring.jpg);">
 								<div class="icon mb-4 d-flex align-items-center justify-content-center">
 								<span class="icon-instagram"></span>
@@ -26,7 +47,56 @@
 							</a>
 						</div>
 						<div class="col-md-3 ftco-animate">
-							<a href="images/event1.JPG" class="gallery image-popup img d-flex align-items-center" style="background-image: url(images/event1.JPG);">
+							<a href="images/IMG_20160625_090733.jpg" class="gallery image-popup img d-flex align-items-center" style="background-image: url(images/IMG_20160625_090733.jpg);">
+								<div class="icon mb-4 d-flex align-items-center justify-content-center">
+								<span class="icon-instagram"></span>
+							</div>
+							</a>
+						</div>
+						<div class="col-md-3 ftco-animate">
+							<a href="images/image1.jpg" class="gallery image-popup img d-flex align-items-center" style="background-image: url(images/image1.jpg);">
+								<div class="icon mb-4 d-flex align-items-center justify-content-center">
+								<span class="icon-instagram"></span>
+							</div>
+							</a>
+						</div>
+						<div class="col-md-3 ftco-animate">
+							<a href="images/WP_20140914_130.jpg" class="gallery image-popup img d-flex align-items-center" style="background-image: url(images/WP_20140914_130.jpg);">
+								<div class="icon mb-4 d-flex align-items-center justify-content-center">
+								<span class="icon-instagram"></span>
+							</div>
+							</a>
+						</div>
+						<div class="col-md-3 ftco-animate">
+							<a href="images/WP_20140914_005.jpg" class="gallery image-popup img d-flex align-items-center" style="background-image: url(images/WP_20140914_005.jpg);">
+								<div class="icon mb-4 d-flex align-items-center justify-content-center">
+								<span class="icon-instagram"></span>
+							</div>
+							</a>
+						</div>
+						<div class="col-md-3 ftco-animate">
+							<a href="images/IMG_20160625_090733.jpg" class="gallery image-popup img d-flex align-items-center" style="background-image: url(images/IMG_20160625_090733.jpg);">
+								<div class="icon mb-4 d-flex align-items-center justify-content-center">
+								<span class="icon-instagram"></span>
+							</div>
+							</a>
+						</div>
+						<div class="col-md-3 ftco-animate">
+							<a href="images/IMG_0511.JPG" class="gallery image-popup img d-flex align-items-center" style="background-image: url(images/IMG_0511.JPG);">
+								<div class="icon mb-4 d-flex align-items-center justify-content-center">
+								<span class="icon-instagram"></span>
+							</div>
+							</a>
+						</div>
+						<div class="col-md-3 ftco-animate">
+							<a href="images/staring.jpg" class="gallery image-popup img d-flex align-items-center" style="background-image: url(images/staring.jpg);">
+								<div class="icon mb-4 d-flex align-items-center justify-content-center">
+								<span class="icon-instagram"></span>
+							</div>
+							</a>
+						</div>
+						<div class="col-md-3 ftco-animate">
+							<a href="images/WP_20140914_130.jpg" class="gallery image-popup img d-flex align-items-center" style="background-image: url(images/WP_20140914_130.jpg);">
 								<div class="icon mb-4 d-flex align-items-center justify-content-center">
 								<span class="icon-instagram"></span>
 							</div>
@@ -89,9 +159,9 @@
 					</div>
 				</div>
 				<div class="row">
-				
+
 				</div>
-				
+
 			</div>
 		</section>
 

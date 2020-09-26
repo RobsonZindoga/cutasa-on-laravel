@@ -39,7 +39,7 @@
 					</div>
 					<h3 class="heading"><a href="https://spiked.co.zw/glytime-foods-penetrates-the-regional-market/">Glytime Company founded by Alumni Member</a></h3>
 					<p>
-						CUT ASA Alumni is made up of intreprenuers who are making it in the society. Glytime is now suplying all over Zimbabwe and Botswana
+						CUT ASA Alumni is made up of intreprenuers who are making it in the society. Glytime is now suplying ...
 					</p>
 					<div class="d-flex align-items-center mt-4 meta">
 						<p class="mb-0"><a href="https://spiked.co.zw/glytime-foods-penetrates-the-regional-market/" class="btn btn-primary">Read More <span class="ion-ios-arrow-round-forward"></span></a></p>
@@ -53,7 +53,7 @@
 			</div>
 			<div class="col-md-4 d-flex ftco-animate">
 				<div class="blog-entry justify-content-end">
-				<a href="single.html" class="block-20" style="background-image: url('images/doc.jpeg');">
+				<a href="#" class="block-20" style="background-image: url('images/doc.jpeg');">
 				</a>
 				<div class="text float-right d-block">
 					<div class="d-flex align-items-center pt-2 mb-4 topp">
@@ -79,22 +79,22 @@
 			</div>
 			<div class="col-md-4 d-flex ftco-animate">
 				<div class="blog-entry">
-				<a href="single.html" class="block-20" style="background-image: url('images/image_3.jpg');">
+				<a href="https://adventist.news/en/news/prison-ministry-promotes-social-reintegration-of-inmates?fbclid=IwAR2ISSICh1y5ZlrfEa_tC8K4SScqIyt70Rp3pZojTXYReGykzotjcQdTcxw&cHash=5277da435fe7d52b59e93491846aea35" class="block-20" style="background-image: url('images/image_3.jpg');">
 				</a>
 				<div class="text float-right d-block">
 					<div class="d-flex align-items-center pt-2 mb-4 topp">
 						<div class="one mr-2">
-							<span class="day">04</span>
+							<span class="day">13</span>
 						</div>
 						<div class="two">
-							<span class="yr">2019</span>
-							<span class="mos">June</span>
+							<span class="yr">2018</span>
+							<span class="mos">November</span>
 						</div>
 					</div>
-					<h3 class="heading"><a href="single.html">Why Lead Generation is Key for Business Growth</a></h3>
-					<p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+					<h3 class="heading"><a href="single.html">Prison Ministry promotes social reintegration of inmates</a></h3>
+					<p>"I spent seven long years in prison without any perspective," says José Vanderlei Leal, former inmate...</p>
 					<div class="d-flex align-items-center mt-4 meta">
-						<p class="mb-0"><a href="#" class="btn btn-primary">Read More <span class="ion-ios-arrow-round-forward"></span></a></p>
+						<p class="mb-0"><a href="https://adventist.news/en/news/prison-ministry-promotes-social-reintegration-of-inmates?fbclid=IwAR2ISSICh1y5ZlrfEa_tC8K4SScqIyt70Rp3pZojTXYReGykzotjcQdTcxw&cHash=5277da435fe7d52b59e93491846aea35" class="btn btn-primary">Read More <span class="ion-ios-arrow-round-forward"></span></a></p>
 						<p class="ml-auto mb-0">
 							<a href="#" class="mr-2">Admin</a>
 							<a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a>

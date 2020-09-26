@@ -1,7 +1,7 @@
 @extends('layouts.webpage.index', ['pageSlug' => 'events'])
 
 @section('content')
-    
+
 <section class="ftco-section contact-section ftco-no-pb" id="contact-section">
 		<div class="container">
 			<div class="row justify-content-center mb-5 pb-3">
@@ -54,7 +54,7 @@
 							</div>
 							<div>
 								<h3 class="mb-3">Contact Number</h3>
-								<p><a href="tel://771058830">+263 777 932 905</a></p>
+								<p><a href="tel://771058830">+263 777 1058830</a></p>
 							</div>
 						</div>
 					</div>
@@ -65,7 +65,7 @@
 							</div>
 							<div>
 								<h3 class="mb-3">Email Address</h3>
-								<p><a href="mailto:info@cutasa.co.zw">info@cutasa.co.zw</a></p>
+								<p><a href="mailto:info@cutasa.co.zw">info@cutaa.co.zw</a></p>
 							</div>
 						</div>
 					</div>
@@ -76,7 +76,7 @@
 							</div>
 							<div>
 								<h3 class="mb-3">Website</h3>
-								<p><a href="index.html">www.cutasa.co.zw</a></p>
+								<p><a href="index.html">www.cutaaa.co.zw</a></p>
 							</div>
 						</div>
 					</div>

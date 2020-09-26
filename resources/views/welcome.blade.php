@@ -2,7 +2,15 @@
 
 @section('content')
 
-
+@if ($errors->any())
+<div class="alert alert-danger">
+    <ul>
+        @foreach ($errors->all() as $error)
+            <li>{{ $error }}</li>
+        @endforeach
+    </ul>
+</div>
+@endif
 	<section class="home-slider js-fullheight owl-carousel">
       <div class="slider-item js-fullheight" style="background-image:url(images/about-2.jpg);">
       	<div class="overlay"></div>
@@ -109,7 +117,7 @@
               	<div class="icon d-flex justify-content-center align-items-center">
               		<span class="icon-users"></span>
               	</div>
-                <strong class="number" data-number="2789">0</strong>
+                <strong class="number" data-number="{{ count($members) }}">0</strong>
                 <span>Members</span>
               </div>
             </div>
@@ -168,7 +176,7 @@
               <div class="icon"><span class="flaticon-praying"></span></div>
               <div class="media-body">
                 <h3 class="heading mb-3">Daily Prayers</h3>
-                <p>We conduct Daily Prayers in campus from 17:30hrs to 18:00hrs at the Poets Corner. Everyone is allowed to Join</p>
+                <p> Daily prayer is as essential to growth in grace, and even to spiritual life itself, as is temporal food to physical wellbeing. </p>
               </div>
             </div>
           </div>
@@ -189,7 +197,9 @@
               <div class="media-body">
                 <h3 class="heading mb-3">The Movement</h3>
                 <p>
-					Transforming students on non-Adventist campuses into Seventh-day Adventist ambassadors of Christ,
+					Enhancing networking, revival and unity of the Alumni as well as promoting outreach programs
+for soul winning.
+
 				</p>
               </div>
             </div>
@@ -276,16 +286,16 @@
 						<div class="col-md-6 col-lg-3 ftco-animate">
 							<div class="staff">
 								<div class="img-wrap d-flex align-items-stretch">
-									<div class="img align-self-stretch" style="background-image: url(images/kenny.jpg);"></div>
+									<div class="img align-self-stretch" style="background-image: url(images/rob.jpg);"></div>
 								</div>
 								<div class="text d-flex align-items-center pt-3 text-center">
 									<div>
-										<h3 class="mb-2">Kennedy Muchadenyika</h3>
+										<h3 class="mb-2">Robson Zindoga</h3>
 										<span class="position mb-4">Alumni President</span>
 										<div class="faded">
 											<ul class="ftco-social text-center">
 								<li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
-								<li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
+								<li class="ftco-animate"><a href="https://www.facebook.com/robbie.zint/"><span class="icon-facebook"></span></a></li>
 								<li class="ftco-animate"><a href="#"><span class="icon-google-plus"></span></a></li>
 								<li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
 							</ul>
@@ -297,11 +307,11 @@
 						<div class="col-md-6 col-lg-3 ftco-animate">
 							<div class="staff">
 								<div class="img-wrap d-flex align-items-stretch">
-									<div class="img align-self-stretch" style="background-image: url(images/brighton.jpg);"></div>
+									<div class="img align-self-stretch" style="background-image: url(images/lloyd.jpg);"></div>
 								</div>
 								<div class="text d-flex align-items-center pt-3 text-center">
 									<div>
-										<h3 class="mb-2">Brighton Chiwoko</h3>
+										<h3 class="mb-2">Lloyd Samvura</h3>
 										<span class="position mb-4">Alumni V President</span>
 										<div class="faded">
 											<ul class="ftco-social text-center">
@@ -322,7 +332,7 @@
 								</div>
 								<div class="text d-flex align-items-center pt-3 text-center">
 									<div>
-										<h3 class="mb-2">Kundai Nyakabau</h3>
+										<h3 class="mb-2">Santana Muchena</h3>
 										<span class="position mb-4">Alumni Secretary</span>
 										<div class="faded">
 											<ul class="ftco-social text-center">
@@ -343,7 +353,7 @@
 								</div>
 								<div class="text d-flex align-items-center pt-3 text-center">
 									<div>
-										<h3 class="mb-2">Gergibil Kunze (Gwenzi)</h3>
+										<h3 class="mb-2">Dalubuhle Seon Masuku</h3>
 										<span class="position mb-4">Alumni Treasury</span>
 										<div class="faded">
 											<ul class="ftco-social text-center">

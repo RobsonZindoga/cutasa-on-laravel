@@ -1,6 +1,15 @@
-@extends('layouts.app', ['page' => __('Register'), 'pageSlug' => 'register'])
-
+{{-- @extends('layouts.app', ['page' => __('Register'), 'pageSlug' => 'register']) --}}
+@extends('layouts.webpage.index')
 @section('content')
+    @if ($errors->any())
+        <div class="alert alert-danger">
+            <ul>
+                @foreach ($errors->all() as $error)
+                    <li>{{ $error }}</li>
+                @endforeach
+            </ul>
+        </div>
+    @endif
     <div class="col-lg-10 col-xl-10 mx-auto">
         <div class="card card-signin flex-row ">
             <div class="card-img-left d-none d-md-flex" style="background: rgb(28, 0, 128)">

@@ -16,8 +16,10 @@
 	          <li class="nav-item"><a href="{{ route('pages.events') }}" class="nav-link"><span>Events</span></a></li>
 	          <li class="nav-item"><a href="{{ route('pages.blog') }}" class="nav-link"><span>Blog</span></a></li>
 			  <li class="nav-item"><a href="{{ route('pages.contact') }}" class="nav-link"><span>Contact</span></a></li>
-			  <li class="nav-item"><a href="/member/create" class="btn btn-primary btn-md"><span>Join Our Community</span></a></li>
+			  <li class="nav-item"><a href="{{ route('pages.register') }}" class="btn btn-primary btn-md"><span>Join Our Community</span></a></li>
 	        </ul>
 	      </div>
 	    </div>
-	</nav>
+    </nav>
+
+

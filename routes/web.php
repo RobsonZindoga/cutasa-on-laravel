@@ -1,5 +1,6 @@
 <?php
 
+use App\Member;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -12,10 +13,10 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/', function () {
+//     return view('welcome');
+// });
+Route::get('/','PageController@welcome');
 
 Auth::routes();
 
@@ -42,6 +43,7 @@ Route::group([''], function () {
 		Route::get('sermons', ['as' => 'pages.sermons', 'uses' => 'PageController@sermons']);
 		Route::get('contact', ['as' => 'pages.contact', 'uses' => 'PageController@contact']);
 		Route::get('gallery', ['as' => 'pages.gallery', 'uses' => 'PageController@gallery']);
+		Route::get('register', ['as' => 'pages.register', 'uses' => 'PageController@register']);
 });
 
 Route::group(['middleware' => 'auth'], function () {

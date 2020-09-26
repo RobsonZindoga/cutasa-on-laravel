@@ -1,7 +1,7 @@
 <?php
 
 namespace App\Http\Controllers;
-
+use App\Member;
 class PageController extends Controller
 {
     /**
@@ -12,6 +12,11 @@ class PageController extends Controller
     public function icons()
     {
         return view('pages.icons');
+    }
+    public function welcome()
+    {
+        $member = Member::all();
+        return view('welcome',['members'=>$member]);
     }
 
     /**
@@ -73,7 +78,7 @@ class PageController extends Controller
     {
         return view('pages.upgrade');
     }
-    
+
     /**
     * Display about page
     *
@@ -82,6 +87,10 @@ class PageController extends Controller
     public function about()
     {
     return view('pages.about');
+    }
+    public function register()
+    {
+    return view('pages.register');
     }
 
     /**
@@ -93,7 +102,7 @@ class PageController extends Controller
     {
     return view('pages.gallery');
     }
-    
+
     /**
      * Display events page
      *
@@ -101,7 +110,7 @@ class PageController extends Controller
      */
     public function events()
     {
-        return view('events.index');
+        return view('pages.events');
     }
 
     /**
@@ -113,7 +122,7 @@ class PageController extends Controller
     {
     return view('pages.sermons');
     }
-    
+
     /**
     * Display blog page
     *
